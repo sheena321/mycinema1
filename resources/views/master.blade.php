@@ -179,12 +179,12 @@ input[type='checkbox']:after {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 20px;
-        color: #818181;
+        color:#f5524f;
         display: block;
     }
 
     .sidebar a:hover {
-        color: #f1f1f1;
+        color:#fff;
     }
 
     .main {
