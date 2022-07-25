@@ -1,7 +1,6 @@
 @extends("master")
 @section("content")
-    <!-- slidebar -->
-    <div class="sidebar" style='width:250px'>
+<div class="sidebar" style='width:250px'>
         <a href="{{ asset('http://127.0.0.1:8000/thad_profile') }}" style="color:blue;fontsize:7;"><i class="fa fa-fw "></i><img
                 src="{{ asset('images/admin.jpg') }}" alt="" class="admin_image"> &nbsp;&nbsp; Theater Admin</a>
         <br>
@@ -15,40 +14,40 @@
         <a href="{{ asset('http://127.0.0.1:8000/th_chgpsw') }}"><i class="fa fa-fw fa-wrench"></i> Change Password</a>
         <a href="{{ asset('http://127.0.0.1:8000/thad_theaterdetails') }}"><i class="fa fa-fw fa-wrench"></i> Theater details</a>
     </div>
-    <h1 style="color: red; margin-left: 300px;">Running Movies</h1>
-    <hr style="border-color: chartreuse;"><br><br>
-    <table class="table table-borderless" style="width: 1000px; height:200px; margin-left: 400px;border: 10px inset blue ; border-radius: 25px;">
-        <thead style="color:blue ;background-color:white">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">ShowTime</th>
-            <th scope="col">MovieName</th>
-            <th scope="col">SCreen</th>
-          </tr>
-        </thead>
-        <tbody style="color:black ;background-color:white">
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
+<br><br>
+<div class="container"
+    style="border: 15px outset lightgrey ;border-radius:20px;background-color:lightgray ;height: 400px;width: 600px; ">
     <br>
-    
+    <form action="">
+        <div class="row">
+            <div class="col-12"><h3><b>ChangePassWord</b></h3></div>
+        </div><br><br>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="">Username</label>
+            </div>
+            <div class="col-6">
+                <input type="text" name="" id="">
+            </div>
+
+        </div><br>
+        <div class="row">
+            <div class="col-6"> <label for=""> Enter Password</label></div>
+            <div class="col-6"><input type="password" name="" id=""></div>
+        </div><br>
+        <div class="row">
+            <div class="col-6"><label for="">ReEnter Password</label></div>
+            <div class="col-6"><input type="password" name="" id=""></div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6">
+                <button type="button" class="btn btn-success">Save Changes</button>
+                <button type="button" class="btn btn-primary">Cancel</button>
+            </div>
+        </div>
+    </form>
+</div>
+
 @endsection
-
-
-    

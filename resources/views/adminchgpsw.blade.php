@@ -64,32 +64,35 @@
     </div>
     <h1>Change Password</h1>
     <hr>
-    <div class="container" style="border: 2px solid ;border-radius:20px;background-color:lightgray ;height: 300px;width: 600px;" >
+    <div class="container"
+        style="border: 2px solid ;border-radius:20px;background-color:lightgray ;height: 300px;width: 600px;">
         <br><br><br>
-        <div class="row">
-            <div class="col-6">
-                <label for="">Username</label>
-            </div>
-            <div class="col-6">
-                <input type="text" name="" id="">
-            </div>
+        <form action="">
+            <div class="row">
+                <div class="col-6">
+                    <label for="">Username</label>
+                </div>
+                <div class="col-6">
+                    <input type="text" name="" id="">
+                </div>
 
-        </div><br>
-        <div class="row">
-            <div class="col-6"> <label for=""> Enter Password</label></div>
-            <div class="col-6"><input type="password" name="" id=""></div>
-        </div><br>
-        <div class="row">
-            <div class="col-6"><label for="">ReEnter Password</label></div>
-            <div class="col-6"><input type="password" name="" id=""></div>
-        </div><br>
-        <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6">
-                <button type="button" class="btn btn-primary">Save Changes</button>
-                <button type="button" class="btn btn-primary">Cancel</button>
+            </div><br>
+            <div class="row">
+                <div class="col-6"> <label for=""> Enter Password</label></div>
+                <div class="col-6"><input type="password" name="" id=""></div>
+            </div><br>
+            <div class="row">
+                <div class="col-6"><label for="">ReEnter Password</label></div>
+                <div class="col-6"><input type="password" name="" id=""></div>
+            </div><br>
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-primary">Save Changes</button>
+                    <button type="button" class="btn btn-primary">Cancel</button>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
 </body>
 

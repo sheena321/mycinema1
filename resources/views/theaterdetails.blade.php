@@ -1,70 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends("master")
+@section("content")
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
-    .reel {
-      font-size: large;
-      background-image: url("{{ asset('images/reel4.jpg') }}");
-      width: 100%;
-      height: 100px;
-      /* margin-left: 0%; */
-    }
 
-    .icon_padd {
-      width: 70px;
-      height: 65px;
-      padding-top: 20px;
-      float: left;
-
-    }
-  </style>
-</head>
-
-<body>
-  <div class="d-flex flex-row bd-highlight align-items-center reel mb-3">
-    <div class="p-2 bd-highlight"><span><img src="{{ asset('images/icon1.jpg') }}" alt="" class="icon_padd"></span>
+  <div class="sidebar" style='width:250px'>
+        <a href="{{ asset('http://127.0.0.1:8000/admnprofile') }}" style="color:blue;fontsize:7;"><i class="fa fa-fw "></i><img
+                src="{{ asset('images/admin.jpg') }}" alt="" class="admin_image"> &nbsp;&nbsp;Admin</a>
+        <br>
+        <hr style="background-color:grey;border-radius:7px;">
+        <a href="{{ asset('http://127.0.0.1:8000/admindash') }}"><i class="fa fa-fw fa-wrench"></i> Home</a>
+        <a href="{{ asset('http://127.0.0.1:8000/theaterdetails') }}"><i class="fa fa-fw fa-wrench"></i> Theaters</a>
+        <a href="{{ asset('http://127.0.0.1:8000/moviedetails') }}"><i class="fa fa-fw fa-wrench"></i> Movies</a>
+        <a href="{{ asset('http://127.0.0.1:8000/theateradminlist') }}"><i class="fa fa-fw fa-wrench"></i> Theater admin list</a>
+        <a href="{{ asset('http://127.0.0.1:8000/bookingdetails') }}"><i class="fa fa-fw fa-wrench"></i> Booking</a>
+        <a href="{{ asset('http://127.0.0.1:8000/adminchgpsw') }}"><i class="fa fa-fw fa-wrench"></i> Change Password</a>
+        <a href="{{ asset('http://127.0.0.1:8000/ad_moviediscription') }}"><i class="fa fa-fw fa-wrench"></i> About Movie</a>
     </div>
-    <div class="p-2 bd-highlight">
-      <h1 class="font-italic font-weight-bold">My Cinema</h1>
-    </div>
-    <div class="p-2 flex-fill bd-highlight text_len">
-      <form>
-        <div class="form-group">
-
-          <input type="email" class="form-control flex-fill" id="text1" placeholder="search">
-        </div>
-      </form>
-    </div>
-    <div class="p-2 bd-highlight"><b> Notification</b></div>
-    <div class="p-2 bd-highlight">
-      <form class="form-inline">
-        <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><b> Location</b></label>
-        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-          <option selected>kozhikode</option>
-          <option value="1">KZD</option>
-          <option value="2">TVM</option>
-          <option value="3">KOCHI</option>
-        </select>
-      </form>
-    </div>
-  </div>
   <!-- <button type="button" class="btn btn-primary" style="float: right; margin-right: 40px;">ADD Theater</button> -->
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
     style="float: right; margin-right: 40px;">
     ADD Theater
   </button>
   <br><br>
-  <h1>Theater List</h1>
+  <h1 style="margin-left:260px ;color:rgb(242, 88, 88)">Theater List</h1>
 
-  <table class="table">
+  <table class="table table-striped" style="margin-left:260px; background-color: aliceblue;">
     <thead class="thead-dark">
       <tr>
         <th scope="col">#</th>
@@ -151,7 +110,4 @@
     style="float: right; margin-right: 60px;"> <a href=""></a>&nbsp;&nbsp;&nbsp;Edit&nbsp;&nbsp;&nbsp;</a></button> -->
 
 
-
-</body>
-
-</html>
+    @endsection
