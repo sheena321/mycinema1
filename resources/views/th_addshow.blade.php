@@ -1,6 +1,6 @@
 @extends("master")
 @section("content")
-<<div class="sidebar" style='width:250px'>
+<div class="sidebar" style='width:250px'>
         <a href="{{ asset('http://127.0.0.1:8000/thad_profile') }}" style="color:blue;fontsize:7;"><i class="fa fa-fw "></i><img
                 src="{{ asset('images/admin.jpg') }}" alt="" class="admin_image"> &nbsp;&nbsp; Theater Admin</a>
         <br>
@@ -13,6 +13,7 @@
         <a href="{{ asset('http://127.0.0.1:8000/th_booking') }}"><i class="fa fa-fw fa-wrench"></i> Booking</a>
         <a href="{{ asset('http://127.0.0.1:8000/th_chgpsw') }}"><i class="fa fa-fw fa-wrench"></i> Change Password</a>
         <a href="{{ asset('http://127.0.0.1:8000/thad_theaterdetails') }}"><i class="fa fa-fw fa-wrench"></i> Theater details</a>
+        <a href="{{ asset('http://127.0.0.1:8000/thad_theaterdetails') }}"><i class="fa fa-fw fa-wrench"></i>LogOut</a>
     </div>
 <div class="container" style="margin-left: 260px; background-color: lightgray;border-radius: 25px;margin-top: 30px;">
     <form action="">

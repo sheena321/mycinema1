@@ -69,7 +69,7 @@
                   <tr>
                     <td>the Bird</td>
                     <td>Mark</td>
-                    <td> <a href="">Otto</a> </td>
+                    <td> <a href="{{ asset('http://127.0.0.1:8000/selectseat') }}">1 pm</a> </td>
                 
                   </tr>
                   <tr>

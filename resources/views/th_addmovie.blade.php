@@ -15,6 +15,7 @@
         <a href="{{ asset('http://127.0.0.1:8000/th_booking') }}"><i class="fa fa-fw fa-wrench"></i> Booking</a>
         <a href="{{ asset('http://127.0.0.1:8000/th_chgpsw') }}"><i class="fa fa-fw fa-wrench"></i> Change Password</a>
         <a href="{{ asset('http://127.0.0.1:8000/thad_theaterdetails') }}"><i class="fa fa-fw fa-wrench"></i> Theater details</a>
+        <a href="{{ asset('http://127.0.0.1:8000/thad_theaterdetails') }}"><i class="fa fa-fw fa-wrench"></i>LogOut</a>
     </div>
 
     <div class="containter-fluid"
@@ -22,7 +23,7 @@
         <form action="">
             <div class="row">
                 <div class="col-12">
-                    <h1 style="padding-left:350px;padding-top:20px;background-color: brown; ">ADD Movie</h1><br>
+                    <h1 style="padding-left:350px;padding-top:20px; ">ADD Movie</h1><br>
                 </div>
             </div>
             <div class="row" style="padding-top:60px ;padding-left: 89px;">

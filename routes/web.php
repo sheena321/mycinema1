@@ -53,7 +53,7 @@ Route::view('ratetheater','ratetheater');
 Route::view('userchgpsw','userchgpsw');
 Route::view('useradvts','useradvts');
 Route::view('contactus','contactus');
-
+Route::view('usercomingsoon','usercomingsoon');
 Route::view('userbooking','userbooking');
 Route::view('selectseat','selectseat');
 Route::view('userprofile','userprofile');

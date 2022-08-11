@@ -45,8 +45,8 @@
             <div class="col-6">
                 <button type="button" id="btn1" onclick="click1()"><img src="{{ asset('images/star.jpg') }}" alt=""
                         style="width:30px;height: 30px;;"></button>
-                <button id="btn2" onclick="click2()"><img src="{{ asset('images/halfstar.jpg') }}" alt=""
-                        style="width:30px;height: 30px;;"></button>
+                <!-- <button id="btn2" onclick="click2()"><img src="{{ asset('images/halfstar.jpg') }}" alt="" -->
+                        <!-- style="width:30px;height: 30px;;"></button> -->
                 <label for="" style="color: red;">(click star button for rating) </label>
                 <br><br>
             </div>

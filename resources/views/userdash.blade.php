@@ -13,6 +13,7 @@
     <a href="{{ asset('http://127.0.0.1:8000/contactus') }}"><i class="fa fa-fw fa-wrench"></i> ContactUs</a>
     <a href="{{ asset('http://127.0.0.1:8000/useradvts') }}"><i class="fa fa-fw fa-wrench"></i> Advertise with us</a>
     <a href="{{ asset('http://127.0.0.1:8000/userchgpsw') }}"><i class="fa fa-fw fa-wrench"></i> Change Password</a>
+    <a href="{{ asset('') }}"><i class="fa fa-fw fa-wrench"></i> LogOut</a>
     <!-- <a href="{{ asset('http://127.0.0.1:8000/thad_theaterdetails') }}"><i class="fa fa-fw fa-wrench"></i> Theater -->
     details</a>
 </div>
@@ -60,7 +61,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ComingSoon</a>
+                    <a class="nav-link" href="{{ asset('http://127.0.0.1:8000/comingsoon') }}">ComingSoon</a>
                 </li>
                
             </ul>
